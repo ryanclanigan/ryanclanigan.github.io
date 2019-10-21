@@ -1,2 +1,62 @@
-@import url(global.css)
+@import url(global.css);
 
+body {
+  text-align: center;
+  margin: 0%;
+}
+
+.header {
+  margin: 2em;
+  padding: 0.5em;
+  margin: 0%;
+  padding-bottom: 3em;
+}
+
+.name-div {
+  padding-top: 2em;
+}
+
+.name {
+  color: white;
+  font-size: 3em;
+  margin-bottom: 0
+}
+
+.description {
+  font-size: 2em;
+  color: white;
+}
+
+.image-div {
+  display: inline-block;
+  width: 20em;
+  height: 20em;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-top: 3em;
+  border: 3px solid white;
+}
+
+.image {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.background {
+  background: black
+}
+
+
+.footer {
+  padding-bottom: 3em;; 
+}
+
+.copyright {
+  color: white;
+}
+
+.link-grid {
+  
+}
