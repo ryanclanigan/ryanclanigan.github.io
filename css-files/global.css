@@ -1,0 +1,10 @@
+@import url(flexbox.css);
+@import url(colors.css);
+
+html *{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
