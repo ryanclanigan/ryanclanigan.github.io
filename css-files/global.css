@@ -5,8 +5,9 @@ html * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-html {
-  scroll-behavior: smooth;
+body {
+  text-align: center;
+  margin: auto;
 }
 
 .header {
@@ -38,7 +39,7 @@ html {
 }
 
 .header-list {
-  grid-column-start: 6;
+  grid-column-start: 5;
   grid-column-end: 10;
   margin:auto
 }

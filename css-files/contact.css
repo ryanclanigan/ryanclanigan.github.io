@@ -1,0 +1,11 @@
+@import url(global.css);
+
+.contact-form {
+  margin: auto;
+  width: 40em;
+  height: 40em;
+  margin-top: 3em;
+  padding: 2em;
+  box-sizing: border-box; 
+}
+
