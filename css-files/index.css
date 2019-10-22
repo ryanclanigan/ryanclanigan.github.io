@@ -2,15 +2,9 @@
 
 body {
   text-align: center;
-  margin: 0%;
+  margin: auto;
 }
 
-.header {
-  margin: 2em;
-  padding: 0.5em;
-  margin: 0%;
-  padding-bottom: 3em;
-}
 
 .name-div {
   padding-top: 2em;
@@ -34,8 +28,8 @@ body {
   position: relative;
   overflow: hidden;
   border-radius: 50%;
-  margin-top: 3em;
   border: 3px solid white;
+  margin-top: 3em;
 }
 
 .image {
@@ -44,19 +38,18 @@ body {
   height: 100%;
 }
 
-.background {
-  background: black
-}
-
-
-.footer {
-  padding-bottom: 3em;; 
-}
-
-.copyright {
-  color: white;
-}
-
 .link-grid {
-  
+    
+}
+
+.about {
+
+}
+
+.projects {
+
+}
+
+.contact {
+
 }

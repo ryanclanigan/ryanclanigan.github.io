@@ -1,3 +1,11 @@
 .black {
   background-color: black;
 }
+
+.gray {
+  background-color: darkgray
+}
+
+.white-text {
+  color: white;
+}

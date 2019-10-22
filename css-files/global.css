@@ -1,10 +1,80 @@
 @import url(flexbox.css);
 @import url(colors.css);
 
-html *{
+html * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+.header {
+  padding: 0.1em;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.header-name {
+  color: white;
+  vertical-align: middle;
+  margin: 1em;
+  font-size: 1.6em;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.header-name:hover {
+  color: black;
+}
+
+.header-list {
+  grid-column-start: 6;
+  grid-column-end: 10;
+  margin:auto
+}
+
+.header-link-container {
+  display: inline;
+  padding: 0.5em;
+  box-sizing: border-box;
+}
+
+.header-link {
+  background-color: black;
+  color: white;
+  padding: 0.25em;
+  font-size: 1.25em;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  padding: 1em;
+}
+
+.header-link:hover {
+  color: black;
+  background-color: white;
+}
+
+.footer {
+  padding: 1em;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.copyright {
+  color: white;
+  float: right;
+}
+
+.background {
+  background: black
+}
+
+a {
+  text-decoration: none;
 }
