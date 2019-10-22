@@ -1,2 +1,26 @@
-@import url(global.css)
+@import url(global.css);
 
+.container {
+  margin: auto;
+}
+
+.about-me-container {
+  max-width: 30em;
+  margin-top: 3em;
+}
+
+.external-sites-container {
+  margin-top: 3em;
+}
+
+.about-me-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.umbrella-container {
+  box-sizing: border-box;
+  overflow: hidden;
+  object-fit: contain;
+  margin: 3em;
+}
