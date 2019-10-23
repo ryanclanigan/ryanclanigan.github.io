@@ -1,9 +1,6 @@
 @import url(flexbox.css);
 @import url(colors.css);
 
-html * {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
 body {
   text-align: center;
@@ -38,10 +35,12 @@ a.navbar-brand:hover {
 }
 
 .navbar-brand {
-  margin-left: 20em;
+  margin-left: 15em;
+  font-size: 2em;
 }
 
 .link-list {
   margin-right: 20em;
+  font-size: 1.5em;
 }
 
