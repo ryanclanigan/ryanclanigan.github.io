@@ -1,21 +1,28 @@
 @import url(global.css);
 
 .about-me-container {
-  max-width: 30em;
-}
-
-.about-me-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
 }
 
 .umbrella-container {
   box-sizing: border-box;
   overflow: hidden;
   object-fit: contain;
-  margin: 3em;
+  margin: auto;
 }
 
 .link-box {
   margin: auto;
+}
+
+.connect-container {
+  margin-bottom: 5em;
+}
+
+.resume-container {
+  margin-bottom: 5em;
+}
+
+iframe {
+  height: 50em;
 }
