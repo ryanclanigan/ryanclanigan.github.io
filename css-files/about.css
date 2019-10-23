@@ -2,11 +2,6 @@
 
 .about-me-container {
   max-width: 30em;
-  margin-top: 3em;
-}
-
-.external-sites-container {
-  margin-top: 3em;
 }
 
 .about-me-grid {
@@ -19,4 +14,8 @@
   overflow: hidden;
   object-fit: contain;
   margin: 3em;
+}
+
+.link-box {
+  margin: auto;
 }
