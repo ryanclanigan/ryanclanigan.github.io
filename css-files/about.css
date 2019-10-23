@@ -1,9 +1,5 @@
 @import url(global.css);
 
-.container {
-  margin: auto;
-}
-
 .about-me-container {
   max-width: 30em;
   margin-top: 3em;
