@@ -1,6 +1,9 @@
 @import url(flexbox.css);
 @import url(colors.css);
 
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   text-align: center;
