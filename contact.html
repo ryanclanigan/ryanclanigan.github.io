@@ -9,7 +9,7 @@
     src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js">
   </script>
   <link rel="stylesheet" href="./css-files/contact.css" type="text/css" media="screen">
-  <title>Ryan Lanigan | About</title>
+  <title>Ryan Lanigan | Contact</title>
 </head>
 
 <body class="background">
@@ -27,12 +27,33 @@
     </div>
   </nav>
 
-  <form action="" class="contact-form light-gray">
-    <h3>Contact Me</h3>
-    <div class="flexRowContainer">
-      <div class="flexColumnContainer">
-      </div>
+  <form action="mailto:ryanclanigan@gmail.com" method="post" enctype="text/plain" class="contact-form container">
+    <h3 class="pt-3 white-text">Contact Me</h3>
+    <div class="row mt-4">
+      <h5 class="white-text mt-1 input-title">Name</h5>
+      <input type="text" name="Name" class="ml-5 bg-light form-control w-75">
     </div>
+    <div class="row mt-4">
+      <h5 class="white-text mt-1 input-title">Email</h5>
+      <input type="text" name="Email" class="ml-5 bg-light form-control w-75">
+    </div>
+    <div class="row mt-4">
+      <h5 class="white-text mt-1 input-title">Message</h5>
+      <textarea type="text" name="Message" class="ml-5 bg-light form-control w-75" rows="4"></textarea>
+    </div>
+    <div class="row mt-4">
+      <h5 class="white-text mt-1 input-title">Describe your favorite animal</h5>
+      <textarea type="text" name="FavoriteAnimal" class="ml-5 bg-light form-control w-75" rows="4"></textarea>
+    </div>
+    <div class="row mt-4">
+        <h5 class="white-text mt-1 input-title">Describe your least favorite animal</h5>
+        <textarea type="text" name="LeastAnimal" class="ml-5 bg-light form-control w-75" rows="4"></textarea>
+      </div>
+    <div class="row mt-4 btn-group">
+      <button type="submit" class="bg-secondary text-light border-0 rounded btn">Submit</button>
+      <button type="reset" class="bg-dark text-light border-0 rounded btn ml-1">Reset</button>
+    </div>
+
   </form>
 
   <footer id="footer" class="footer gray">
