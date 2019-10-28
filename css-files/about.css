@@ -31,7 +31,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 570px) {
+@media only screen and (max-width: 1000px) {
   .pdf {
      display: none;
   }
