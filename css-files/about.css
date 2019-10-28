@@ -23,6 +23,24 @@
   margin-bottom: 5em;
 }
 
-iframe {
+.pdf {
   height: 50em;
+}
+
+.resume-link {
+  display: none;
+}
+
+@media only screen and (max-width: 760px) {
+  .pdf {
+     display: none;
+  }
+
+  .resume-link {
+    display: inline !important;
+  }
+
+  .resume-header {
+    display: none;
+  }
 }
